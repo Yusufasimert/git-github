@@ -1,0 +1,22 @@
+using System;
+using System.Collections.Generic;           
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace c_sharp
+{
+    class Program
+  {
+    static void Main (string[] args)
+    {
+      Console.Title = "asim";
+      Console.BackgroundColor = ConsoleColor.Black;
+      Console.CursorSize = 60;
+      Console.CursorLeft = 30;
+      Console.CursorTop = 10;
+      Console.WriteLine("deneme");
+      Console.ReadLine();
+    }
+  }
+}
